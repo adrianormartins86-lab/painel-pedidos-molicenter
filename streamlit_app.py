@@ -137,7 +137,7 @@ col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     st.markdown(f"""
         <div class="card-pedido">
-            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400" class="card-img" alt="Folhagem">
+            <img src="https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?w=400" class="card-img" alt="Folhagem">
             <a href="{LINKS_PEDIDOS['folhagem']}" target="_blank" class="btn-titulo">Folhagem</a>
             <div class="texto-horario">Seg a Sáb até 12:00hrs</div>
         </div>
