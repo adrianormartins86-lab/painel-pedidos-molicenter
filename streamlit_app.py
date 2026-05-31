@@ -230,7 +230,7 @@ with row2_col1:
 with row2_col2:
     st.markdown(f"""
         <div class="card-pedido">
-            <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=400" class="card-img" alt="Embalagens">
+            <img src="C:\Users\Adriano R. Martins\OneDrive\Área de Trabalho\Molicenter\1.Programas\Pedidos\Fotos\Embalagens.jpg" class="card-img" alt="Embalagens">
             <a href="{LINKS_PEDIDOS['embalagens']}" target="_blank" class="btn-titulo">Embalagens</a>
             <div class="texto-horario">Sexta-feira até as 17:30hrs</div>
         </div>
