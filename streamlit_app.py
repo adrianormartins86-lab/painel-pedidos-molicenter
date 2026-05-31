@@ -156,9 +156,9 @@ LINKS_PEDIDOS = {
     "folhagem": "https://docs.google.com/spreadsheets/d/1y1mCjctvQTwqvxhk67uYnSX4vs_SROAAa7-kZAz07jg/edit?gid=0#gid=0",
     "flv_normal": "https://docs.google.com/spreadsheets/d/1MROR0Tl__10OI--8-VqZdT5e1il64XSdwW3-xR23Cu8/edit?usp=drive_link",
     "flv_ofertas": "https://docs.google.com/spreadsheets/d/1Ic_iNC34IQTUwZhN0qdf6bsTM-EjwshVnNlwjdnI8mI/edit?usp=drive_link",
-    "acougue": "https://docs.google.com/spreadsheets/d/11e0N0FWVdrKtWMG-UroqwPpVKQOqgJ524bBAOuEcyBY/edit?gid=0#gid=0",
+    "acougue_adriano": "https://docs.google.com/spreadsheets/d/19e0N0FWVdrKtWMG-UroqwPpVKQOqgJ524bBAOuEcyBY/edit?gid=0#gid=0",
     "acougue_pioneiro": "https://docs.google.com/spreadsheets/d/1bBB75w4lshM9Xg70VCuJAzLASpYrp35zYDp8y2vB3Fc/edit?usp=drive_link",
-    "pecas_acougue": "https://docs.google.com/spreadsheets/d/19q1qxoLhddZo616gdJFYrj9f4t9TmRCvD3dYhThmUpY/edit?gid=0#gid=0",
+    "pecas_acougue": "https://docs.google.com/spreadsheets/d/19e0N0FWVdrKtWMG-UroqwPpVKQOqgJ524bBAOuEcyBY/edit?gid=0#gid=0",
     "embalagens": "https://docs.google.com/spreadsheets/d/1x2QjCgvjpBl5-QZAqZCNay7aoUvgohjJoAQFdGn4cfE/edit?gid=0#gid=0",
     "materia_prima": "https://docs.google.com/spreadsheets/d/1WDZBbT1J-aSjGNXFfy9HbhKAmAhU5zquqRHYJUXpR0o/edit?gid=0#gid=0",
     "padaria": "https://docs.google.com/spreadsheets/d/14nfvS6jRIJFdTgPpYDxUZNThLSBM4zASFXl_XnOLJOI/edit?gid=0#gid=0",
@@ -196,8 +196,8 @@ with row1_col2:
 with row1_col3:
     st.markdown(f"""
         <div class="card-pedido">
-            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" class="card-img" alt="Açougue">
-            <a href="{LINKS_PEDIDOS['acougue']}" target="_blank" class="btn-titulo">Açougue</a>
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" class="card-img" alt="Açougue Adriano">
+            <a href="{LINKS_PEDIDOS['acougue_adriano']}" target="_blank" class="btn-titulo">Açougue Adriano</a>
             <div class="texto-horario">
                 Quartas-feira até 15:00hrs<br>Sábado até 15:00hrs
             </div>
