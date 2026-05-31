@@ -163,7 +163,7 @@ LINKS_PEDIDOS = {
     "materia_prima": "https://docs.google.com/spreadsheets/d/1WDZBbT1J-aSjGNXFfy9HbhKAmAhU5zquqRHYJUXpR0o/edit?gid=0#gid=0",
     "padaria": "https://docs.google.com/spreadsheets/d/14nfvS6jRIJFdTgPpYDxUZNThLSBM4zASFXl_XnOLJOI/edit?gid=0#gid=0",
     "sugestao_hortifruti": "https://1drv.ms/x/s!Aub4upL5X9DiiMQk_TNnm9D1_s7p6A?e=dQbAKD",
-    "sugestao_acougue": "https://1drv.ms/x/s!Aub4upL5X9Diido2H0sInF2k7EArQQ?e=WEfvJU",
+    "sugestao_acougue": "https://1drv.ms/x/c/e2d05ff992baf8e6/IQDm-LqS-V_QIIDiA3ICAAAAAf91damk1P4zL0WOZQMb5ys?e=AhVL9h",
 }
 
 # --- LINHA 1 DE CARDS ---
