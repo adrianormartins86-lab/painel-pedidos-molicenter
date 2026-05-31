@@ -20,7 +20,7 @@ def get_base64_image(image_path):
 # Tenta carregar a imagem do passarinho salva na raiz do GitHub
 logo_base64 = get_base64_image("passaro_logo.png")
 
-# Estilização CSS customizada - Versão Confortável (4 Colunas)
+# Estilização CSS customizada
 st.markdown("""
     <style>
     /* Reset e Background Escuro */
@@ -29,9 +29,9 @@ st.markdown("""
         color: #ffffff !important;
     }
     
-    /* Banner Principal - Design Elegante */
+    /* Banner Principal - Ajustado para o Azul Original */
     .banner-container {
-        background: linear-gradient(90deg, #1e1e1e 0%, #2d2d2d 100%);
+        background: linear-gradient(90deg, #0093E9 0%, #0077b6 100%);
         padding: 12px 20px;
         border-radius: 8px;
         margin-bottom: 25px;
@@ -39,7 +39,7 @@ st.markdown("""
         display: flex;
         align-items: center;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
-        border: 1px solid #3d3d3d;
+        border: 1px solid #0093E9;
     }
     .banner-logo {
         height: 42px;
@@ -54,7 +54,7 @@ st.markdown("""
         color: #ffffff;
     }
     
-    /* Cards de Pedidos Mais Robustos (4 Colunas) */
+    /* Cards de Pedidos */
     .card-pedido {
         background-color: #1e1e1e;
         border-radius: 10px;
@@ -76,7 +76,7 @@ st.markdown("""
     }
     .card-img {
         width: 100%;
-        height: 130px; /* Aumentado para melhor resolução com 4 colunas */
+        height: 130px;
         object-fit: cover;
         border-radius: 6px;
         margin-bottom: 12px;
@@ -102,7 +102,7 @@ st.markdown("""
         background-color: #e0e0e0;
     }
     
-    /* Horários e Informações mais visíveis */
+    /* Horários e Informações */
     .texto-horario {
         font-size: 11.5px;
         color: #cccccc;
@@ -110,9 +110,9 @@ st.markdown("""
         line-height: 1.4;
     }
     
-    /* Seções de Sugestões */
+    /* Tarja de Sugestões - Ajustada para o Azul Original */
     .section-title-box {
-        background-color: #2d2d2d;
+        background-color: #0093E9;
         color: white;
         padding: 8px 15px;
         font-weight: bold;
@@ -120,7 +120,8 @@ st.markdown("""
         margin-bottom: 15px;
         font-size: 15px;
         text-align: center;
-        border: 1px solid #3d3d3d;
+        border: 1px solid #0082ce;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     }
     
     .divider-line {
@@ -163,7 +164,7 @@ LINKS_PEDIDOS = {
     "sugestao_acougue": "https://1drv.ms/x/s!Aub4upL5X9Diido2H0sInF2k7EArQQ?e=WEfvJU",
 }
 
-# --- LINHA 1 DE CARDS (4 COLUNAS) ---
+# --- LINHA 1 DE CARDS ---
 row1_col1, row1_col2, row1_col3, row1_col4 = st.columns(4)
 
 with row1_col1:
@@ -211,7 +212,7 @@ with row1_col4:
     """, unsafe_allow_html=True)
 
 
-# --- LINHA 2 DE CARDS (4 COLUNAS) ---
+# --- LINHA 2 DE CARDS ---
 row2_col1, row2_col2, row2_col3, row2_col4 = st.columns(4)
 
 with row2_col1:
@@ -257,8 +258,7 @@ with row2_col4:
 st.markdown('<div class="divider-line"></div>', unsafe_allow_html=True)
 
 
-# --- LINHA 3: SEÇÃO DE SUGESTÕES CENTRALIZADA (Layout 4 Colunas para Alinhamento) ---
-# Usamos colunas laterais vazias para centralizar o bloco de sugestões perfeitamente
+# --- LINHA 3: SEÇÃO DE SUGESTÕES CENTRALIZADA ---
 col_left, col_center, col_right = st.columns([0.5, 3, 0.5])
 
 with col_center:
