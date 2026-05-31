@@ -21,6 +21,7 @@ def get_base64_image(image_path):
 logo_base64 = get_base64_image("passaro_logo.png")
 foto_embalagens_base64 = get_base64_image("Embalagens.jpg")
 foto_materiaprima_base64 = get_base64_image("materiaprima.jpg")
+foto_pioneiros_base64 = get_base64_image("Pioneiros.jpg")
 
 # Estilização CSS customizada
 st.markdown("""
@@ -207,7 +208,7 @@ with row1_col3:
 with row1_col4:
     st.markdown(f"""
         <div class="card-pedido">
-            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" class="card-img" alt="Açougue Pioneiro">
+            <img src="data:image/jpeg;base64,{foto_pioneiros_base64}" class="card-img" alt="Açougue Pioneiro">
             <a href="{LINKS_PEDIDOS['acougue_pioneiro']}" target="_blank" class="btn-titulo">Pioneiro + BF + Paraná</a>
             <div class="texto-horario">Seg a Sex até 11:00hrs</div>
         </div>
