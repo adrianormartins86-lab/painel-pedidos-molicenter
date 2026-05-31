@@ -118,17 +118,17 @@ st.markdown("""
 
 # --- LINKS DAS PLANILHAS (Substitua pelos seus links reais do Google Sheets) ---
 LINKS_PEDIDOS = {
-    "folhagem": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "flv_normal": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "flv_ofertas": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "acougue": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "acougue_pioneiro": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "pecas_acougue": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "embalagens": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "materia_prima": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "padaria": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "sugestao_hortifruti": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
-    "sugestao_acougue": "https://docs.google.com/spreadsheets/d/seu_id_aqui/edit",
+    "folhagem": "https://docs.google.com/spreadsheets/d/1y1mCjctvQTwqvxhk67uYnSX4vs_SROAAa7-kZAz07jg/edit?gid=0#gid=0",
+    "flv_normal": "https://docs.google.com/spreadsheets/d/1MROR0Tl__10OI--8-VqZdT5e1il64XSdwW3-xR23Cu8/edit?usp=drive_link",
+    "flv_ofertas": "https://docs.google.com/spreadsheets/d/1Ic_iNC34IQTUwZhN0qdf6bsTM-EjwshVnNlwjdnI8mI/edit?usp=drive_link",
+    "acougue": "https://docs.google.com/spreadsheets/d/19e0N0FWVdrKtWMG-UroqwPpVKQOqgJ524bBAOuEcyBY/edit?gid=0#gid=0",
+    "acougue_pioneiro": "https://docs.google.com/spreadsheets/d/1bBB75w4lshM9Xg70VCuJAzLASpYrp35zYDp8y2vB3Fc/edit?usp=drive_link",
+    "pecas_acougue": "https://docs.google.com/spreadsheets/d/19q1qxoLhddZo616gdJFYrj9f4t9TmRCvD3dYhThmUpY/edit?gid=0#gid=0",
+    "embalagens": "https://docs.google.com/spreadsheets/d/1x2QjCgvjpBl5-QZAqZCNay7aoUvgohjJoAQFdGn4cfE/edit?gid=0#gid=0",
+    "materia_prima": "https://docs.google.com/spreadsheets/d/1WDZBbT1J-aSjGNXFfy9HbhKAmAhU5zquqRHYJUXpR0o/edit?gid=0#gid=0",
+    "padaria": "https://docs.google.com/spreadsheets/d/14nfvS6jRIJFdTgPpYDxUZNThLSBM4zASFXl_XnOLJOI/edit?gid=0#gid=0",
+    "sugestao_hortifruti": "https://1drv.ms/x/s!Aub4upL5X9DiiMQk_TNnm9D1_s7p6A?e=dQbAKD",
+    "sugestao_acougue": "https://1drv.ms/x/s!Aub4upL5X9Diido2H0sInF2k7EArQQ?e=WEfvJU",
 }
 
 # --- LINHA 1 DE CARDS ---
