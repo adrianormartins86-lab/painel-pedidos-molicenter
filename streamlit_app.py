@@ -215,6 +215,8 @@ with col_inf2:
         <div class="card-pedido">
             <img src="https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?w=400" class="card-img" alt="Matéria Prima">
             <a href="{LINKS_PEDIDOS['materia_prima']}" target="_blank" class="btn-titulo">Matéria Prima</a>
+              <div class="texto-horario">
+                Até Sábado<br>
         </div>
     """, unsafe_allow_html=True)
 
@@ -223,6 +225,8 @@ with col_inf3:
         <div class="card-pedido">
             <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" class="card-img" alt="Padaria e Confeitaria">
             <a href="{LINKS_PEDIDOS['padaria']}" target="_blank" class="btn-titulo">Padaria e Confeitaria</a>
+              <div class="texto-horario">
+                Sábado<br>
         </div>
     """, unsafe_allow_html=True)
 
