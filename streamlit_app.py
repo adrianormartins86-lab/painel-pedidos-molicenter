@@ -206,6 +206,12 @@ with row1_col3:
             <div class="texto-horario">
                 Quartas-feira até 15:00hrs<br>Sábado até 15:00hrs
             </div>
+             <div style="margin-top: 10px;">
+                <a href="{LINKS_PEDIDOS['pecas_acougue']}" target="_blank" class="btn-titulo">Peças Açougue</a>
+                 <div class="texto-horario">
+                Seg / Qua e Sex - Arapongas até as 15:00h<br>
+                Ter / Qui e Sáb - Maringá até as 15:00h
+            </div>
         </div>
     """, unsafe_allow_html=True)
 
