@@ -226,21 +226,9 @@ with row1_col4:
 
 
 # --- LINHA 2 DE CARDS ---
-row2_col1, row2_col2, row2_col3, row2_col4 = st.columns(4)
+row2_col1, row2_col2, row2_col3 = st.columns(3)
 
 with row2_col1:
-    st.markdown(f"""
-        <div class="card-pedido">
-            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" class="card-img" alt="Peças Açougue">
-            <a href="{LINKS_PEDIDOS['pecas_acougue']}" target="_blank" class="btn-titulo">Peças Açougue</a>
-            <div class="texto-horario">
-                Seg / Qua e Sex - Arapongas até as 15:00h<br>
-                Ter / Qui e Sáb - Maringá até as 15:00h
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
-
-with row2_col2:
     st.markdown(f"""
         <div class="card-pedido">
             <img src="data:image/jpeg;base64,{foto_embalagens_base64}" class="card-img" alt="Embalagens">
@@ -249,7 +237,7 @@ with row2_col2:
         </div>
     """, unsafe_allow_html=True)
 
-with row2_col3:
+with row2_col2:
     st.markdown(f"""
         <div class="card-pedido">
             <img src="data:image/jpeg;base64,{foto_materiaprima_base64}" class="card-img" alt="Matéria Prima">
@@ -258,7 +246,7 @@ with row2_col3:
         </div>
     """, unsafe_allow_html=True)
 
-with row2_col4:
+with row2_col3:
     st.markdown(f"""
         <div class="card-pedido">
             <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" class="card-img" alt="Padaria e Confeitaria">
