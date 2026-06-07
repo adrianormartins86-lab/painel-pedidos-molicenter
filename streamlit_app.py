@@ -231,7 +231,7 @@ row2_col1, row2_col2, row2_col3, row2_col4 = st.columns(4)
 with row2_col1:
     st.markdown(f"""
         <div class="card-pedido">
-            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" class="card-img" alt="Peças Manoel">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400" class="card-img" alt="Peças Açougue">
             <a href="{LINKS_PEDIDOS['pecas_acougue']}" target="_blank" class="btn-titulo">Peças Açougue</a>
             <div class="texto-horario">
                 Seg / Qua e Sex - Arapongas até as 15:00h<br>
