@@ -48,7 +48,7 @@ pioneiros_b64      = get_base64_image("Pioneiros.jpg")
 CARDS_ROW1 = [
     {
         "title": "Folhagem",
-        "link": "https://docs.google.com/spreadsheets/d/1y1mCjctvQTwqvxhk67uYnSX4vs_SROAAa7-kZAz07jg/edit?gid=0#gid=0",
+        "link": "https://pedidos-folhagem.streamlit.app/",
         "schedule": ["Seg a Sáb até 12:00hrs"],
         "img_b64": "", "img_mime": "image/jpeg",
         "img_url": "https://images.unsplash.com/photo-1574316071802-0d684efa7bf5?w=400",
@@ -56,7 +56,7 @@ CARDS_ROW1 = [
     },
     {
         "title": "FLV Normal",
-        "link": "https://docs.google.com/spreadsheets/d/1MROR0Tl__10OI--8-VqZdT5e1il64XSdwW3-xR23Cu8/edit?usp=drive_link",
+        "link": "https://pedidos-flv.streamlit.app/",
         "schedule": ["Terças-feira até 17:00hrs", "Quintas-feira até 14:00hrs"],
         "img_b64": "", "img_mime": "image/jpeg",
         "img_url": "https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=400",
