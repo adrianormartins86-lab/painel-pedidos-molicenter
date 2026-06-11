@@ -75,7 +75,7 @@ CARDS_ROW1 = [
     },
     {
         "title": "Açougue Adriano",
-        "link": "https://docs.google.com/spreadsheets/d/19e0N0FWVdrKtWMG-UroqwPpVKQOqgJ524bBAOuEcyBY/edit?gid=0#gid=0",
+        "link": "https://acougue-total.streamlit.app/",
         "schedule": ["Quartas-feira até 15:00hrs", "Sábado até 15:00hrs"],
         "img_b64": "", "img_mime": "image/jpeg",
         "img_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
