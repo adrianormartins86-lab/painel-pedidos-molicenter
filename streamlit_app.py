@@ -82,7 +82,7 @@ CARDS_ROW1 = [
         "sub_cards": [
             {
                 "title": "Peças Açougue",
-                "link": "https://docs.google.com/spreadsheets/d/19q1qxoLhddZo616gdJFYrj9f4t9TmRCvD3dYhThmUpY/edit?gid=0#gid=0",
+                "link": "https://acougue-pecas.streamlit.app/",
                 "schedule": [
                     "Seg / Qua / Sex — Arapongas até 15:00h",
                     "Ter / Qui / Sáb — Maringá até 15:00h"
@@ -92,7 +92,7 @@ CARDS_ROW1 = [
     },
     {
         "title": "Pioneiro + BF + Paraná",
-        "link": "https://docs.google.com/spreadsheets/d/1bBB75w4lshM9Xg70VCuJAzLASpYrp35zYDp8y2vB3Fc/edit?usp=drive_link",
+        "link": "https://acougue-especiais.streamlit.app/",
         "schedule": ["Seg a Sex até 11:00hrs"],
         "img_b64": pioneiros_b64, "img_mime": "image/jpeg",
         "img_url": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=400",
