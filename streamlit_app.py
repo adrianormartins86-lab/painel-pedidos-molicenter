@@ -63,7 +63,7 @@ CARDS_ROW1 = [
         "sub_cards": [
             {
                 "title": "FLV Ofertas",
-                "link": "https://docs.google.com/spreadsheets/d/1Ic_iNC34IQTUwZhN0qdf6bsTM-EjwshVnNlwjdnI8mI/edit?usp=drive_link",
+                "link": "https://pedidos-flv-ofertas.streamlit.app/",
                 "schedule": ["Quintas-feira até 14:00hrs"]
             },
             {
